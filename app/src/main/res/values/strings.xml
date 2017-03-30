@@ -3,5 +3,7 @@
     <string name="username_hint">请输入账号</string>
     <string name="password_hint">请输入密码</string>
     <string name="login">登     录</string>
+    <string name="error_alias_empty">别名为空</string>
+    <string name="error_tag_gs_empty">标签为空</string>
 
 </resources>
