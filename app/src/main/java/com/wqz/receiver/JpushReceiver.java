@@ -10,9 +10,14 @@ import android.content.Intent;
 
 public class JpushReceiver extends BroadcastReceiver
 {
+    private final String PUSH_MSG_CLICK = "cn.jpush.android.intent.NOTIFICATION_OPENED";
+
     @Override
     public void onReceive(Context context, Intent intent)
     {
+        if (intent.getAction().equals(PUSH_MSG_CLICK))
+        {
 
+        }
     }
 }
